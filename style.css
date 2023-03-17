@@ -16,8 +16,8 @@
 
 body {
     margin: 0;
-    border-left: 3vw ridge black; 
-    border-right: 3vw ridge black; 
+    /*border-left: 3vw ridge black; */
+    /*border-right: 3vw ridge black; */
     background-image: url('https://www.heet.org.uk/wp-content/uploads/2016/06/gradient-background-wallpaper.jpg');*/
     background-repeat: no-repeat;
     background-size: cover;
