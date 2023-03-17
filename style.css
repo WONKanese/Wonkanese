@@ -1,0 +1,112 @@
+#mainfont {
+    font-family: 'Oswald';
+}
+
+#opensans{
+  font-family: 'Open Sans';
+}
+
+#mrroboto {
+  font-family: 'Roboto';
+}
+
+* {
+    font-family: "Monaco";
+}
+
+body {
+    margin: 0;
+    border-left: 3vw ridge black; 
+    border-right: 3vw ridge black; 
+    background-image: url('https://www.heet.org.uk/wp-content/uploads/2016/06/gradient-background-wallpaper.jpg');*/
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.website{
+    margin: 0 auto;
+    text-align: center;
+}
+
+nav {
+    background-color: rgb(255, 255, 255, 0.5);
+    margin: 0 auto;
+}
+
+#outlined {
+  color: rgb(0, 0, 0);
+  text-shadow:
+    -2px -2px 0 rgb(255, 255, 255),
+     0   -2px 0 rgb(255, 255, 255),
+     2px -2px 0 rgb(255, 255, 255),
+     2px  0   0 rgb(255, 255, 255),
+     2px  2px 0 rgb(255, 255, 255),
+     0    2px 0 rgb(255, 255, 255),
+    -2px  2px 0 rgb(255, 255, 255),
+    -2px  0   0 rgb(255, 255, 255);
+}
+
+.title {
+    font-size: 60px;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+.description {
+    font-size: 40px;
+    margin-bottom: 5vw;
+}
+.about_title, .links_title {
+    font-size: 35px;
+    margin: 10px auto 5px auto;
+}
+
+.about {
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    margin: auto 10%;
+}
+.links {
+  background-color: white;
+  width: 50%;
+  margin: 6vw 40% 0 40%;
+}
+
+.links_border, .about_border {
+  width: 95%;
+  display: inline-block;
+  margin: 10px 0 10px 0;
+}
+
+.links_border {
+    border: 7px ridge rgb(255, 0, 0, 0.5);
+}
+ul {
+  list-style-position: inside;
+  text-align: center;
+  padding-left: 0;
+}
+a {
+  color: black;
+}
+.line {
+    margin: 1px auto 20px auto;
+    width: 55%;
+    height: 5px;
+    background-color: #4c4d4f;
+}
+.subline {
+    margin: 1px auto 20px auto;
+    width: 40%;
+    height: 4px;
+    background-color: #4c4d4f;
+}
+.about_border {
+    border: 7px ridge rgb(74, 202, 212, 0.5);
+}
+
+.youtube_img, .github_img{
+  display: inline;
+  width: 4%;
+  height: 4%;
+  object-fit: cover;
+}
