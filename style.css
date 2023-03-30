@@ -11,7 +11,7 @@
 }
 
 * {
-    font-family: "Monaco";
+    font-family: "Monaco", "Lucida Console", "Courier New", monospace;
 }
 
 body {
